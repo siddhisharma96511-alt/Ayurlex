@@ -1,0 +1,30 @@
+{
+ "herbs": {
+  "ashwagandha": ["ashwagandha","ashvagandha","ashwaganda","withania somnifera","withania","winter cherry","indian ginseng","अश्वगंधा"],
+  "turmeric": ["turmeric","haldi","haridra","curcuma longa","curcumin","हल्दी","हरिद्रा"],
+  "tulsi": ["tulsi","tulasi","holy basil","ocimum","तुलसी"],
+  "triphala": ["triphala","त्रिफला"],
+  "brahmi": ["brahmi","bacopa","bacopa monnieri","ब्राह्मी","ब्रह्मी"],
+  "giloy": ["giloy","guduchi","gudduchi","tinospora","गिलोय","गुडूची"],
+  "neem": ["neem","nimba","azadirachta","margosa","नीम"],
+  "amla": ["amla","amalaki","indian gooseberry","gooseberry","emblica","आंवला","आमला","आमलकी"],
+  "arjuna": ["arjuna","arjun","terminalia arjuna","अर्जुन"],
+  "shatavari": ["shatavari","shatavar","asparagus racemosus","शतावरी"],
+  "mulethi": ["mulethi","mulethi","yashtimadhu","licorice","liquorice","glycyrrhiza","मुलेठी","यष्टिमधु"],
+  "guggul": ["guggul","guggulu","commiphora","गुग्गुल"]
+ },
+ "terms": {
+  "पारंपरिक ज्ञान": "traditional knowledge", "जैव विविधता": "biodiversity", "जैव चोरी": "bio-piracy", "बायोपाइरेसी": "biopiracy",
+  "साइड इफेक्ट": "side effects", "दुष्प्रभाव": "side effects", "नुकसान": "side effects", "ब्लड प्रेशर": "blood pressure",
+  "ले सकता": "take", "ले सकती": "take", "ले सकते": "take", "पेटेंट": "patent", "आयुर्वेदिक": "ayurvedic", "आयुर्वेद": "ayurveda",
+  "दवाई": "medicine", "दवा": "medicine", "औषधि": "medicine", "लाइसेंस": "licence", "लाइसेन्स": "licence", "ट्रेडमार्क": "trademark",
+  "जीआई": "GI", "टैग": "tag", "उत्पाद": "product", "गर्भावस्था": "pregnancy", "गर्भवती": "pregnant", "बच्चों": "children",
+  "बच्चे": "children", "फायदे": "benefits", "फायदा": "benefits", "लाभ": "benefits", "सुरक्षित": "safe", "खुराक": "dose",
+  "मात्रा": "dose", "कितनी": "how much", "कितना": "how much", "आवेदन": "application", "पंजीकरण": "registration",
+  "कानून": "law", "नियम": "rules", "कैसे": "how", "क्यों": "why", "क्या": "is", "मैं": "i", "मेरे": "my", "सकता": "can",
+  "सकते": "can", "निर्माण": "manufacture", "बनाने": "manufacture", "कंपनी": "company", "टीकेडीएल": "TKDL", "हर्बल": "herbal",
+  "फॉर्मूले": "formula", "फॉर्मूला": "formula", "मधुमेह": "diabetes", "लिवर": "liver", "थायराइड": "thyroid", "जड़ी बूटी": "herb",
+  "fayde": "benefits", "fayda": "benefits", "nuksan": "side effects", "khuraak": "dose", "kitna": "how much", "kitni": "how much",
+  "kaise": "how", "garbhavastha": "pregnancy", "dawai": "medicine", "dawa": "medicine"
+ }
+}

@@ -1,0 +1,10 @@
+TITLE: Traditional Knowledge Digital Library (TKDL)
+SOURCE: https://www.tkdl.res.in
+TYPE: law
+TOPIC: traditional_knowledge
+
+The Traditional Knowledge Digital Library (TKDL) is an Indian digital database of traditional knowledge set up by CSIR with the Ministry of AYUSH. It documents formulations from Ayurveda, Unani, Siddha and Yoga in a structured format and in several languages including English, French, German, Spanish and Japanese, so that patent examiners can understand them.
+
+TKDL was created to prevent bio-piracy, meaning the grant of patents on Indian traditional knowledge that is already in the public domain. Patent offices with access agreements, such as the European Patent Office and the USPTO, can search TKDL as prior art during examination.
+
+When TKDL evidence shows that a claimed invention is already known, the application may be withdrawn, amended or refused, or a granted patent may be revoked. TKDL is available to patent offices under access agreements and is not openly browsable by the public.

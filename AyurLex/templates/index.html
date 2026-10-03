@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AyurLex - Ayurveda IP and medicine guide</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+</head>
+<body>
+<div class="shell">
+
+  <aside class="side" id="side" aria-label="Conversations">
+    <div class="brand">
+      <span class="leaf" aria-hidden="true"></span>
+      <div><h1>AyurLex</h1><small>Ayurveda IP and medicine guide</small></div>
+    </div>
+    <button class="btn btn-leaf w-100" id="newChat" type="button">New conversation</button>
+
+    <label class="visually-hidden" for="hsearch">Search your past questions</label>
+    <input id="hsearch" class="form-control form-control-sm search" type="search" placeholder="Search your past questions" autocomplete="off">
+
+    <h2 id="listTitle">Recent conversations</h2>
+    <ul class="list" id="history"><li class="muted">Nothing yet. Ask a question to begin.</li></ul>
+
+    <details class="srcbox">
+      <summary>Trusted sources in the knowledge base</summary>
+      <ul class="list" id="docs"></ul>
+    </details>
+  </aside>
+
+  <main class="main">
+    <header class="top">
+      <button class="btn btn-sm btn-outline-secondary menu" id="toggle" type="button">Menu</button>
+      <div class="pills">
+        <span class="pill" id="pillAi">AI: checking</span>
+        <span class="pill" id="pillDb">History: checking</span>
+      </div>
+      <div class="langbox">
+        <label for="lang">Answer language</label>
+        <select id="lang" class="form-select form-select-sm">
+          <option value="English" selected>English</option>
+          <option value="auto">Match my question</option>
+          <option>Hindi</option><option>Bengali</option><option>Tamil</option><option>Telugu</option>
+          <option>Marathi</option><option>Gujarati</option><option>Kannada</option><option>Malayalam</option><option>Punjabi</option>
+        </select>
+      </div>
+      <button class="btn btn-sm btn-outline-secondary" id="how" type="button">How it works</button>
+    </header>
+
+    <section class="feed" id="feed" aria-live="polite">
+      <div class="welcome" id="welcome">
+        <h2>Ask about Ayurveda patents, rules and herb safety</h2>
+        <p>Every answer comes from government and legal sources and shows which ones. If the sources do not cover your question, AyurLex says so instead of guessing. You can ask in English, Hindi and other Indian languages.</p>
+        <div class="chips" id="chips">
+          <button class="chip" type="button">Can I patent a herbal formulation based on a classical Ayurvedic text?</button>
+          <button class="chip" type="button">What is TKDL and how does it stop bio-piracy?</button>
+          <button class="chip" type="button">Is giloy safe for the liver?</button>
+          <button class="chip" type="button">Which licence do I need to manufacture Ayurvedic medicines?</button>
+          <button class="chip" type="button">क्या मेरे हर्बल उत्पाद को GI टैग मिल सकता है?</button>
+        </div>
+      </div>
+    </section>
+
+    <form class="ask" id="form" autocomplete="off">
+      <input id="q" class="form-control" maxlength="600" placeholder="Ask about Ayurveda IP, drug rules or herb safety" aria-label="Your question">
+      <button class="btn btn-leaf" id="send" type="submit">Send</button>
+    </form>
+    <p class="fine">General information only. Not legal or medical advice.</p>
+  </main>
+</div>
+
+<dialog id="dlg" aria-labelledby="dlgTitle">
+  <div class="dlg-body">
+    <h2 id="dlgTitle">How AyurLex answers</h2>
+    <ol class="steps">
+      <li><b>Language check.</b> The writing script tells us if the question is not in English. A glossary turns Hindi and Hinglish terms into English.</li>
+      <li><b>Herb detection.</b> Herb names are matched even with typos (for example "ashwaganda").</li>
+      <li><b>Intent classifier.</b> A scikit-learn model (TF-IDF with Logistic Regression) decides if the question is about patents, traditional knowledge, licensing, GI and trademarks, medicine information, dosing, or something out of scope.</li>
+      <li><b>Hybrid search.</b> BM25 keyword ranking and character n-gram TF-IDF are combined, then boosted by the herb and the topic.</li>
+      <li><b>Safety layer.</b> Dose questions get a fixed answer. Emergency, pregnancy, child and interaction notices are added.</li>
+      <li><b>Answer.</b> A language model writes from the sources only, or, with no API key, the best passages are quoted as they are.</li>
+      <li><b>Guardrails.</b> Any model answer that contains a dose or a wrong citation is replaced by the source text.</li>
+    </ol>
+    <h3>Measured quality</h3>
+    <div id="metrics" class="metrics"><p class="muted">Run <code>python evaluate.py</code> to generate this report.</p></div>
+    <form method="dialog"><button class="btn btn-leaf btn-sm">Close</button></form>
+  </div>
+</dialog>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

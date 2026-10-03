@@ -1,0 +1,14 @@
+TITLE: Patents Act 1970 - Section 3(p), 3(d) and traditional knowledge
+SOURCE: https://ipindia.gov.in
+TYPE: law
+TOPIC: patent
+
+Section 3(p) of the Patents Act, 1970 says an invention which, in effect, is traditional knowledge, or is an aggregation or duplication of known properties of traditionally known components, is not patentable.
+
+A herbal formulation that simply combines plants whose uses are already described in classical Ayurvedic texts is therefore likely to be refused a patent for lack of novelty and inventive step.
+
+Section 3(d) excludes the mere discovery of a new form or new use of a known substance unless it shows enhanced efficacy. Section 10(4)(d) requires the applicant to disclose the source and geographical origin of biological material used in the invention.
+
+A genuinely new and non-obvious process, extract or formulation with a demonstrable technical advance over the traditional preparation may qualify, provided it is not anticipated by prior art, including documented traditional knowledge.
+
+To be patentable in India an invention must be new, involve an inventive step and be capable of industrial application. A patent lasts 20 years from the date of filing.

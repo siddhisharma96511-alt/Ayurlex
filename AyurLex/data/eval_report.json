@@ -1,0 +1,15 @@
+{
+ "generated": "2026-10-03 21:43",
+ "train_examples": 185,
+ "test_questions": 49,
+ "documents": 23,
+ "passages": 57,
+ "intent_cv_accuracy": 0.865,
+ "intent_cv_macro_f1": 0.865,
+ "intent_test_accuracy": 0.98,
+ "retrieval_hit_at_1": 1.0,
+ "retrieval_hit_at_3": 1.0,
+ "behaviour_accuracy": 1.0,
+ "dose_leaks": 0,
+ "avg_response_ms": 2
+}

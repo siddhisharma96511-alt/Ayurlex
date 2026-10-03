@@ -1,0 +1,345 @@
+[
+ {
+  "q": "Is it possible to get a patent on a mixture of herbs described in old Ayurvedic books?",
+  "intent": "patent",
+  "docs": [
+   "01_patents_act"
+  ]
+ },
+ {
+  "q": "What are the conditions for an invention to be patentable in India?",
+  "intent": "patent",
+  "docs": [
+   "01_patents_act"
+  ]
+ },
+ {
+  "q": "For how many years is a patent valid?",
+  "intent": "patent",
+  "docs": [
+   "01_patents_act"
+  ]
+ },
+ {
+  "q": "Do I have to mention where my plant material came from when I apply for a patent?",
+  "intent": "patent",
+  "docs": [
+   "01_patents_act"
+  ]
+ },
+ {
+  "q": "My patent for a herbal syrup got refused, is it because of Section 3(p)?",
+  "intent": "patent",
+  "docs": [
+   "01_patents_act"
+  ]
+ },
+ {
+  "q": "How does the TKDL protect Indian knowledge from foreign patents?",
+  "intent": "traditional_knowledge",
+  "docs": [
+   "02_tkdl",
+   "03_biopiracy_cases"
+  ]
+ },
+ {
+  "q": "Tell me about the turmeric patent dispute",
+  "intent": "traditional_knowledge",
+  "docs": [
+   "03_biopiracy_cases"
+  ]
+ },
+ {
+  "q": "What happened with the neem fungicide patent in Europe?",
+  "intent": "traditional_knowledge",
+  "docs": [
+   "03_biopiracy_cases"
+  ]
+ },
+ {
+  "q": "Do foreign firms need permission to take Indian medicinal plants for research?",
+  "intent": "traditional_knowledge",
+  "docs": [
+   "04_biodiversity_act"
+  ]
+ },
+ {
+  "q": "Which languages is TKDL available in?",
+  "intent": "traditional_knowledge",
+  "docs": [
+   "02_tkdl"
+  ]
+ },
+ {
+  "q": "Which organisation looks after biodiversity approvals in India?",
+  "intent": "traditional_knowledge",
+  "docs": [
+   "04_biodiversity_act"
+  ]
+ },
+ {
+  "q": "What do I need before I start manufacturing Ayurvedic tablets?",
+  "intent": "licensing",
+  "docs": [
+   "05_drugs_cosmetics"
+  ]
+ },
+ {
+  "q": "Are there GMP rules for Ayurvedic medicine factories?",
+  "intent": "licensing",
+  "docs": [
+   "05_drugs_cosmetics"
+  ]
+ },
+ {
+  "q": "Can an Ayurvedic ad claim that a medicine cures cancer?",
+  "intent": "licensing",
+  "docs": [
+   "05_drugs_cosmetics"
+  ]
+ },
+ {
+  "q": "How can I report a bad reaction after using an Ayurvedic syrup?",
+  "intent": "licensing",
+  "docs": [
+   "06_pharmacovigilance"
+  ]
+ },
+ {
+  "q": "What should I check on the label when buying Ayurvedic medicine?",
+  "intent": "licensing",
+  "docs": [
+   "06_pharmacovigilance",
+   "05_drugs_cosmetics"
+  ]
+ },
+ {
+  "q": "What is the difference between a classical and a proprietary Ayurvedic medicine?",
+  "intent": "licensing",
+  "docs": [
+   "05_drugs_cosmetics"
+  ]
+ },
+ {
+  "q": "Is it possible to get a GI tag for a herb grown only in one district?",
+  "intent": "geo_trademark",
+  "docs": [
+   "07_gi_act"
+  ]
+ },
+ {
+  "q": "Can I register the name of a common herb as my brand?",
+  "intent": "geo_trademark",
+  "docs": [
+   "08_trademarks"
+  ]
+ },
+ {
+  "q": "How do I keep my formula secret and protected?",
+  "intent": "geo_trademark",
+  "docs": [
+   "08_trademarks"
+  ]
+ },
+ {
+  "q": "Can a breeder protect a new variety of a medicinal plant?",
+  "intent": "geo_trademark",
+  "docs": [
+   "09_ppvfr_act"
+  ]
+ },
+ {
+  "q": "क्या मेरे हर्बल उत्पाद को GI टैग मिल सकता है?",
+  "intent": "geo_trademark",
+  "docs": [
+   "07_gi_act"
+  ]
+ },
+ {
+  "q": "What is ashwagandha traditionally used for?",
+  "intent": "medicine_info",
+  "docs": [
+   "20_ashwagandha"
+  ]
+ },
+ {
+  "q": "Does ashwagandha have side effects?",
+  "intent": "medicine_info",
+  "docs": [
+   "20_ashwagandha"
+  ]
+ },
+ {
+  "q": "Is turmeric supplement safe with blood thinners?",
+  "intent": "medicine_info",
+  "docs": [
+   "21_turmeric"
+  ]
+ },
+ {
+  "q": "Can I use tulsi if I have diabetes?",
+  "intent": "medicine_info",
+  "docs": [
+   "22_tulsi"
+  ]
+ },
+ {
+  "q": "What is Triphala made of?",
+  "intent": "medicine_info",
+  "docs": [
+   "23_triphala"
+  ]
+ },
+ {
+  "q": "Is brahmi safe during pregnancy?",
+  "intent": "medicine_info",
+  "docs": [
+   "24_brahmi"
+  ]
+ },
+ {
+  "q": "Can giloy harm the liver?",
+  "intent": "medicine_info",
+  "docs": [
+   "25_giloy"
+  ]
+ },
+ {
+  "q": "Is neem oil safe for babies?",
+  "intent": "medicine_info",
+  "docs": [
+   "26_neem"
+  ]
+ },
+ {
+  "q": "amla benifits for sugar patients",
+  "intent": "medicine_info",
+  "docs": [
+   "27_amla"
+  ]
+ },
+ {
+  "q": "Is arjuna bark good for the heart?",
+  "intent": "medicine_info",
+  "docs": [
+   "28_arjuna"
+  ]
+ },
+ {
+  "q": "Can breastfeeding mothers take shatavari?",
+  "intent": "medicine_info",
+  "docs": [
+   "29_shatavari"
+  ]
+ },
+ {
+  "q": "Does licorice raise blood pressure?",
+  "intent": "medicine_info",
+  "docs": [
+   "30_mulethi"
+  ]
+ },
+ {
+  "q": "What is guggul used for?",
+  "intent": "medicine_info",
+  "docs": [
+   "31_guggul"
+  ]
+ },
+ {
+  "q": "हल्दी के फायदे और नुकसान",
+  "intent": "medicine_info",
+  "docs": [
+   "21_turmeric"
+  ]
+ },
+ {
+  "q": "Are herbal products always safe to combine with prescription medicines?",
+  "intent": "medicine_info",
+  "docs": [
+   "11_general_safety"
+  ]
+ },
+ {
+  "q": "How much ashwagandha should I take each day?",
+  "intent": "dosing",
+  "docs": [
+   "10_dosing_policy"
+  ],
+  "mode": "dose_policy"
+ },
+ {
+  "q": "What is the correct dose of giloy?",
+  "intent": "dosing",
+  "docs": [
+   "10_dosing_policy"
+  ],
+  "mode": "dose_policy"
+ },
+ {
+  "q": "How many grams of triphala can I have at night?",
+  "intent": "dosing",
+  "docs": [
+   "10_dosing_policy"
+  ],
+  "mode": "dose_policy"
+ },
+ {
+  "q": "अश्वगंधा की मात्रा कितनी लेनी चाहिए",
+  "intent": "dosing",
+  "docs": [
+   "10_dosing_policy"
+  ],
+  "mode": "dose_policy"
+ },
+ {
+  "q": "What is the maximum dose of turmeric supplements?",
+  "intent": "dosing",
+  "docs": [
+   "10_dosing_policy"
+  ],
+  "mode": "dose_policy"
+ },
+ {
+  "q": "Who is going to win the next football world cup?",
+  "intent": "out_of_scope",
+  "docs": [],
+  "mode": "scope"
+ },
+ {
+  "q": "Give me a recipe for chocolate cake",
+  "intent": "out_of_scope",
+  "docs": [],
+  "mode": "scope"
+ },
+ {
+  "q": "Can you write a poem about the rain?",
+  "intent": "out_of_scope",
+  "docs": [],
+  "mode": "scope"
+ },
+ {
+  "q": "What time is it in Tokyo?",
+  "intent": "out_of_scope",
+  "docs": [],
+  "mode": "scope"
+ },
+ {
+  "q": "how to treat a headache at home",
+  "intent": "out_of_scope",
+  "docs": [],
+  "mode": "scope"
+ },
+ {
+  "q": "Is ginger tea safe during pregnancy?",
+  "intent": "medicine_info",
+  "docs": [],
+  "mode": "abstain"
+ },
+ {
+  "q": "What does moringa do for health?",
+  "intent": "medicine_info",
+  "docs": [],
+  "mode": "abstain"
+ }
+]

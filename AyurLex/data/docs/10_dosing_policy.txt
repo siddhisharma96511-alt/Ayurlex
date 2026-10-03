@@ -1,0 +1,8 @@
+TITLE: Why this assistant does not give doses
+SOURCE: https://ayush.gov.in
+TYPE: safety
+TOPIC: dosing
+
+This assistant does not give doses of Ayurvedic medicines. The right amount depends on the exact product and form, the person's age, weight, health conditions, pregnancy and other medicines, and the strength of the preparation, which differs between brands.
+
+Follow the dosing on the product label for licensed products, or the advice of a registered Ayurvedic practitioner or doctor. For children, pregnant women, older adults and people with liver, kidney, thyroid or heart disease, always consult a professional first.
